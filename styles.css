@@ -33,7 +33,7 @@ body {
 a {
   cursor: pointer;
 }
-#email {
+.email {
   /* background: rgba(255, 255, 255, 0.05); */
   padding: 0.625rem 1rem;
   border-radius: 5px;
@@ -41,11 +41,11 @@ a {
   color: #f2f2f2;
   font-size: 1rem;
 }
-#email::placeholder {
+.email::placeholder {
   font-size: 0.75rem;
   color: #c2c2c2;
 }
-#submit {
+.submit {
   background-color: var(--brightBlue);
   color: #ffffff;
   border: none;
@@ -119,6 +119,9 @@ nav,
 }
 .nav-links {
   gap: 1em;
+}
+.nav-links li a {
+  color: var(--veryDarkBlue);
 }
 /* hero-section */
 .hero-section {
@@ -448,7 +451,7 @@ h2 {
   .hero-subscription-box {
     gap: 0.5em;
   }
-  #submit {
+  .submit {
     font-size: 1rem;
   }
   .about-and-review-curve-image {
