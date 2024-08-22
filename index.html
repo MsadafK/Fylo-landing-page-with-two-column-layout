@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <!-- navbar -->
+      <nav>
+        <img class="logo" src="./images/logo-dark.svg" alt="logo image" />
+        <div class="nav-links-box">
+          <ul class="nav-links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <section class="hero-section">
+        <img
+          class="hero-image"
+          src="images/illustration-1.svg"
+          alt="illustration image of hero-section"
+        />
+        <div>
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <form class="hero-subscription-box" action="#" method="post">
+            <input
+              id="email"
+              type="text"
+              name="email"
+              placeholder="Enter your email..."
+            />
+            <input id="submit" type="submit" value="Get Started" />
+          </form>
+        </div>
+      </section>
+      <!-- about and review section -->
+      <section class="about-review-section">
+        <img
+          class="about-and-review-curve-image"
+          src="./images/bg-curve-mobile.svg"
+          alt="background curve mobile image"
+        />
+        <img
+          class="about-and-review-image"
+          src="images/illustration-2.svg"
+          alt="illustration-2 of about-review-section"
+        />
+        <div class="about-review-text">
+          <h2>Stay productive, wherever you are</h2>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+        </div>
+        <div class="about-review-link">
+          <a href="#">See how Fylo works </a>
+          <img src="images/icon-arrow.svg" alt="icon-arrow " />
+        </div>
+        <div class="review-card">
+          <img
+            class="review-card-quote-image"
+            src="./images/icon-quotes.svg"
+            alt="quotes icon image"
+          />
+          <p>
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.
+          </p>
+          <div class="about-reviewer">
+            <img
+              class="reviewer-image"
+              src="images/avatar-testimonial.jpg"
+              alt="reviewer image"
+            />
+            <div class="reviewer">
+              <h3>Kyle Burton</h3>
+              <p>Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- above footer section -->
+      <section class="above-footer-section">
+        <div>
+          <h3>Get early access today</h3>
+          <p>
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <form
+          class="above-footer-section-form"
+          action="#"
+          method="post"
+          class="hero-subscription-box above-footer-section-subscription-box"
+        >
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Enter your email..."
+          />
+          <input id="submit" type="submit" value="Get Started" />
+        </form>
+      </section>
+      <!-- footer -->
+      <footer class="footer">
+        <img
+          class="logo footer-logo"
+          src="images/logo-light.svg"
+          alt="footer logo image"
+        />
+        <div class="footer-grid-container">
+          <div class="contact-div">
+            <div class="inside-contact-div">
+              <img
+                class="icon phone-icon"
+                src="images/icon-phone.svg"
+                alt="little phone icon"
+              />
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="inside-contact-div">
+              <img
+                class="icon email-icon"
+                src="./images/icon-email.svg"
+                alt="little phone icon"
+              />
+              <p>example@fylo.com</p>
+            </div>
+          </div>
+          <div class="footer-links-div about-us">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-div terms-and-condition">
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="footer-socials-icons-div">
+            <a href="#">
+              <img
+                class="footer-socials-icons facebook"
+                src="./images/icons8-facebook-24.png"
+                alt="small facebook icon "
+              />
+            </a>
+            <a href="#">
+              <img
+                class="footer-socials-icons twitter"
+                src="./images/icons8-twitter-30.png"
+                alt="small twitter icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="footer-socials-icons instagram"
+                src="./images/icons8-instagram-48.png"
+                alt="small instagram icon"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </header>
+  </body>
+</html>
