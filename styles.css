@@ -145,10 +145,13 @@ h1 {
   margin: 0 1em;
 }
 /* about and review section */
+.about-and-review-section {
+  background-color: var(--purpleLightShade);
+  margin-top: 10em;
+}
 .about-review-section {
   padding: 1em 1em 2em;
   text-align: center;
-  background-color: var(--purpleLightShade);
   position: relative;
   margin-top: 7em;
 }
@@ -209,8 +212,10 @@ h2 {
   border-radius: 50%;
 }
 /* above footer section */
-.above-footer-section {
+.above-over-footer-section {
   background-color: var(--desaturatedBlue);
+}
+.above-footer-section {
   color: var(--white);
   text-align: center;
   padding: 3em 2em;
@@ -225,8 +230,10 @@ h2 {
 }
 
 /* footer */
-.footer {
+.footer-container {
   background-color: var(--veryDarkBlue);
+}
+.footer {
   color: var(--white);
   text-align: left;
   padding: 3.5em 2em 2.5em;
@@ -434,7 +441,7 @@ h2 {
     padding-top: 6em;
   }
   .about-and-review-curve-image {
-    top: -21%;
+    top: -15%;
   }
   .about-review-link {
     align-items: flex-start;
@@ -460,6 +467,13 @@ h2 {
   }
   .footer-socials-icons {
     max-width: 2.5rem;
+  }
+  header,
+  .about-review-section,
+  .above-footer-section,
+  .footer {
+    max-width: 75rem;
+    margin: 0 auto;
   }
 }
 
@@ -529,5 +543,15 @@ h2 {
   }
   .icon {
     width: 5%;
+  }
+  .about-and-review-section {
+    margin-top: 5em;
+  }
+  header,
+  .about-review-section,
+  .above-footer-section,
+  .footer {
+    max-width: 2560px;
+    margin: 0 auto;
   }
 }
